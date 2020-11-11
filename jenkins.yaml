@@ -70,3 +70,14 @@ credentials:
           id: "cloudbees-ci-workshop-github-app"
           owner: "cb-ci-abelu-sp"
           privateKey: "${gitHubAppPrivateKey}"
+cloudbees-slack-integration:
+  config:
+    slackToken: "${slackToken}"
+    slackWorkspace: "T010A455W77"
+    users:
+    - id: "andrew-belu-sp"
+      jenkins: "andrew-belu-sp"
+      optedIn: true
+      scmId: "andrew-belu-sp"
+      slack: "REPLACE_USER_EMAIL"
+      slackWorkspace: "T010A455W77"
